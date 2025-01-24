@@ -1,0 +1,95 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "rellenamos-el-formulario-de-textbox;rellenamos-el-formulario-de-textbox-con-datos-válidos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Rellenamos el formulario de TextBox con datos válidos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está en la página de \"https://demoqa.com/\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicamos sobre el apartado \"Elements\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "nos dirigimos a \"Text Box\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "full_name",
+                      "email",
+                      "current_address",
+                      "permanent_address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Ismael Sanromán",
+                      "isanroman@sdet.com",
+                      "Calle SDET, 1",
+                      "Calle prueba, 2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "interactúa con el formulario de registro",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "el formulario es enviado correctamente",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "rellenamos-el-formulario-de-textbox",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Rellenamos el formulario de TextBox",
+    "tags": [],
+    "uri": "features\\demoqa_textbox.feature"
+  }
+]
