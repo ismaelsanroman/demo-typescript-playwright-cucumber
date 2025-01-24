@@ -39,7 +39,7 @@ Este proyecto automatiza la interacción con la página [DemoQA](https://demoqa.
 ## ⚙️ Instalación
 ### 🔹 1. Clonar el repositorio
 ```sh
-git clone https://github.com/usuario/demo-typescript-playwright-cucumber.git
+git clone https://github.com/ismaelsanroman/demo-typescript-playwright-cucumber.git
 cd demo-typescript-playwright-cucumber
 ```
 
