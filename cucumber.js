@@ -1,6 +1,6 @@
 module.exports = {
     default: {
-      require: ["./step-definitions/*.ts"],
+      require: ["./step-definitions/*_steps.ts"],
       requireModule: ["ts-node/register"],
       format: ["progress"],
       worldParameters: {
