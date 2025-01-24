@@ -4,10 +4,10 @@ import { TextBoxPage } from "../pages/textbox_page";
 
 Given("el usuario está en la página de {string}", { timeout: 20000 }, async function (url: string) {
     const browser = await chromium.launch();
-    this.page = await browser.newPage(); // Guardamos en `this.page`
+    this.page = await browser.newPage();
     await this.page.goto(url, { timeout: 15000 });
     await this.page.waitForLoadState("networkidle");
-    this.textBoxPage = new TextBoxPage(this.page); // Guardamos también el Page Object
+    this.textBoxPage = new TextBoxPage(this.page);
 });
 
 When("clicamos sobre el apartado {string}", async function (menu: string) {

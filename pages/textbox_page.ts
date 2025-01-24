@@ -25,7 +25,7 @@ export class TextBoxPage {
 
     async submitForm() {
         await this.page.click(this.submitButton);
-        await this.page.waitForTimeout(2000); // Espera después de enviar
+        await this.page.waitForTimeout(2000);
     }
 
     async validateFormSubmission() {

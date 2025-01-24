@@ -17,6 +17,6 @@ Then("el formulario es enviado correctamente", async function () {
     if (!this.page) throw new Error("Error: 'page' no ha sido inicializada.");
     const textBoxPage = new TextBoxPage(this.page);
     
-    await this.page.waitForTimeout(2000); // Espera antes de la validación
+    await this.page.waitForTimeout(2000);
     await textBoxPage.validateFormSubmission();
 });
